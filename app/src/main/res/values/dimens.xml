@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="double_margin">16dp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="size_image">50dp</dimen>
+    <dimen name="layout_weight_small">0.2</dimen>
+    <dimen name="layout_weight_big">0.8</dimen>
+    <dimen name="layout_alpha">0.8</dimen>
+    <dimen name="font_size_25">25sp</dimen>
+    <dimen name="double_size_image">100dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/crypto_et"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_big"
+            android:gravity="center|start"
+            android:hint="@string/input_value_hint"
+            android:autofillHints="true" />
+
+        <ImageView
+            android:id="@+id/crypto_choice"
+            android:layout_width="@dimen/size_image"
+            android:layout_height="@dimen/size_image"
+            android:layout_gravity="center|end"
+            android:src="@drawable/ic_money"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_small"
+            android:contentDescription="@string/image_description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/currency_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_big"
+            android:gravity="center|start"
+            android:textSize="@dimen/font_size_30"
+            tools:text="1 BTC = 13838.45 USD" />
+
+        <ImageView
+            android:id="@+id/exchange_img"
+            android:layout_width="@dimen/size_image"
+            android:layout_height="@dimen/size_image"
+            android:layout_gravity="center|end"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_small"
+            android:src="@drawable/ic_exchange"
+            android:contentDescription="@string/image_description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/usd_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_big"
+            android:gravity="center|start"
+            android:textSize="@dimen/font_size_30"
+            tools:text="26894.25$" />
+
+        <ImageView
+            android:id="@+id/usd_img"
+            android:layout_width="@dimen/size_image"
+            android:layout_height="@dimen/size_image"
+            android:layout_gravity="center|end"
+            android:layout_margin="@dimen/double_margin"
+            android:layout_weight="@dimen/layout_weight_small"
+            android:src="@drawable/ic_money"
+            android:contentDescription="@string/image_description" />
+    </LinearLayout>
+
+</LinearLayout>
